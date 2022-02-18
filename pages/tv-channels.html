@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Tv Channels -Start Watching</title>
+    <!-- Temp TAIWIND CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- <link rel="stylesheet" href="/tailwind.css"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="../js/hls.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+<body class="bg-[#e0dddd] bg-opacity-100 ">
+    <div id="preloader"></div>
+    <nav
+        class="bg-purple-700 flex justify-between items-center after:content-['Free_Stream'] after:absolute after:left-28 after:text-slate-200 after:font-extrabold after:font-serif after:text-3xl">
+        <img src="../img/logo.jpg" class=" w-20 h-16  m-2 rounded-lg" alt="Logo -containing a like button">
+        <ul class="select-none px-24 py-4 text-white flex space-x-8 justify-end">
+            <a href="../index.html" class="home hover:text-green-300 cursor-pointer">Home</a>
+            <a href="../pages/tv-channels.html" class="tvchannel hover:text-green-300 cursor-pointer">Live TV Channels</a>
+            <a href="" class="hover:text-green-300 cursor-pointer">About US</a>
+            <a href="" class="hover:text-green-300 cursor-pointer">Services</a>
+            <a href="" class="hover:text-green-300 cursor-pointer">Contact Us</a>
+        </ul>
+    </nav>
+    <main id="" class="">
+
+        <div class="main h-auto">
+            <div class="heading py-14 h-[25vh] bg-cover">
+                <div class="overlay text-center flex-col h-full pl-14 space-y-14 ">
+                    <h1 class="transition-transY text-purple-700  text-6xl font-semibold">All Live TV Channels</h1>
+                </div>
+            </div>
+
+            <div class="list-container  w-full h-[150vh] ">
+                <div class="card-holder grid grid-cols-4  p-5 gap-8 w-full h-full ">
+                    <!-- 1st row -->
+                    <div id="somoy" class="card overflow-hidden py-3 px-4 space-y-1 cursor-pointer shadow-[4px_4px_10px_#222,6px_6px_20px_#333] hover:shadow-[4px_4px_15px_#555,6px_6px_25px_#666] hover:scale-110 transition-all duration-300 ease-in-out bg-indigo-700">
+                        <img src="../img/ban-1.jpg" class="object-cover mb-2 w-full h-2/3" alt="Channel's Logo">
+                        <h4 class="text-white text-xl font-semibold font-serif">Somoy TV</h4>
+                        <p class=" text-sky-100 text-justify text-xs">Somoy tv is one of the best news channel in Bangladesh. Watch News</p>
+                    </div>
+                    <div id="9xm" class="card overflow-hidden py-3 px-4 space-y-1 cursor-pointer shadow-[4px_4px_10px_#222,6px_6px_20px_#333] hover:shadow-[4px_4px_15px_#555,6px_6px_25px_#666] hover:scale-110 transition-all duration-300 ease-in-out bg-indigo-700">
+                        <img src="../img/ban-1.jpg" class="object-cover mb-2 w-full h-2/3" alt="Channel's Logo">
+                        <h4 class="text-white text-xl font-semibold font-serif">9XM Music</h4>
+                        <p class=" text-sky-100 text-justify text-xs">9xm is the most popular channel for music in India</p>
+                    </div>
+                    <div id="atn" class="card overflow-hidden py-3 px-4 space-y-1 cursor-pointer shadow-[4px_4px_10px_#222,6px_6px_20px_#333] hover:shadow-[4px_4px_15px_#555,6px_6px_25px_#666] hover:scale-110 transition-all duration-300 ease-in-out bg-indigo-700">
+                        <img src="../img/ban-1.jpg" class="object-cover mb-2 w-full h-2/3" alt="Channel's Logo">
+                        <h4 class="text-white text-xl font-semibold font-serif">ATN Bangla</h4>
+                        <p class=" text-sky-100 text-justify text-xs">Another bangladeshi popular channel</p>
+                    </div>
+                    <div id="rtv" class="card overflow-hidden py-3 px-4 space-y-1 cursor-pointer shadow-[4px_4px_10px_#222,6px_6px_20px_#333] hover:shadow-[4px_4px_15px_#555,6px_6px_25px_#666] hover:scale-110 transition-all duration-300 ease-in-out bg-indigo-700">
+                        <img src="../img/ban-1.jpg" class="object-cover mb-2 w-full h-2/3" alt="Channel's Logo">
+                        <h4 class="text-white text-xl font-semibold font-serif">RTV</h4>
+                        <p class=" text-sky-100 text-justify text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, cum</p>
+                    </div>
+                    <div id="gb" class="card overflow-hidden py-3 px-4 space-y-1 cursor-pointer shadow-[4px_4px_10px_#222,6px_6px_20px_#333] hover:shadow-[4px_4px_15px_#555,6px_6px_25px_#666] hover:scale-110 transition-all duration-300 ease-in-out bg-indigo-700">
+                        <img src="../img/ban-1.jpg" class="object-cover mb-2 w-full h-2/3" alt="Channel's Logo">
+                        <h4 class="text-white text-xl font-semibold font-serif">GAAN BANGLA</h4>
+                        <p class=" text-sky-100 text-justify text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, cum</p>
+                    </div>
+                    <div id="lorem" class="card overflow-hidden py-3 px-4 space-y-1 cursor-pointer shadow-[4px_4px_10px_#222,6px_6px_20px_#333] hover:shadow-[4px_4px_15px_#555,6px_6px_25px_#666] hover:scale-110 transition-all duration-300 ease-in-out bg-indigo-700">
+                        <img src="../img/ban-1.jpg" class="object-cover mb-2 w-full h-2/3" alt="Channel's Logo">
+                        <h4 class="text-white text-xl font-semibold font-serif">Channel Name</h4>
+                        <p class=" text-sky-100 text-justify text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, cum</p>
+                    </div>
+                    <div id="lorem" class="card overflow-hidden py-3 px-4 space-y-1 cursor-pointer shadow-[4px_4px_10px_#222,6px_6px_20px_#333] hover:shadow-[4px_4px_15px_#555,6px_6px_25px_#666] hover:scale-110 transition-all duration-300 ease-in-out bg-indigo-700">
+                        <img src="../img/ban-1.jpg" class="object-cover mb-2 w-full h-2/3" alt="Channel's Logo">
+                        <h4 class="text-white text-xl font-semibold font-serif">Channel Name</h4>
+                        <p class=" text-sky-100 text-justify text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, cum</p>
+                    </div>
+                    <div id="lorem" class="card overflow-hidden py-3 px-4 space-y-1 cursor-pointer shadow-[4px_4px_10px_#222,6px_6px_20px_#333] hover:shadow-[4px_4px_15px_#555,6px_6px_25px_#666] hover:scale-110 transition-all duration-300 ease-in-out bg-indigo-700">
+                        <img src="../img/ban-1.jpg" class="object-cover mb-2 w-full h-2/3" alt="Channel's Logo">
+                        <h4 class="text-white text-xl font-semibold font-serif">Channel Name</h4>
+                        <p class=" text-sky-100 text-justify text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, cum</p>
+                    </div>
+                    <div id="lorem" class="card overflow-hidden py-3 px-4 space-y-1 cursor-pointer shadow-[4px_4px_10px_#222,6px_6px_20px_#333] hover:shadow-[4px_4px_15px_#555,6px_6px_25px_#666] hover:scale-110 transition-all duration-300 ease-in-out bg-indigo-700">
+                        <img src="../img/ban-1.jpg" class="object-cover mb-2 w-full h-2/3" alt="Channel's Logo">
+                        <h4 class="text-white text-xl font-semibold font-serif">Channel Name</h4>
+                        <p class=" text-sky-100 text-justify text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, cum</p>
+                    </div>
+                    <div id="lorem" class="card overflow-hidden py-3 px-4 space-y-1 cursor-pointer shadow-[4px_4px_10px_#222,6px_6px_20px_#333] hover:shadow-[4px_4px_15px_#555,6px_6px_25px_#666] hover:scale-110 transition-all duration-300 ease-in-out bg-indigo-700">
+                        <img src="../img/ban-1.jpg" class="object-cover mb-2 w-full h-2/3" alt="Channel's Logo">
+                        <h4 class="text-white text-xl font-semibold font-serif">Channel Name</h4>
+                        <p class=" text-sky-100 text-justify text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, cum</p>
+                    </div>
+                    <div id="lorem" class="card overflow-hidden py-3 px-4 space-y-1 cursor-pointer shadow-[4px_4px_10px_#222,6px_6px_20px_#333] hover:shadow-[4px_4px_15px_#555,6px_6px_25px_#666] hover:scale-110 transition-all duration-300 ease-in-out bg-indigo-700">
+                        <img src="../img/ban-1.jpg" class="object-cover mb-2 w-full h-2/3" alt="Channel's Logo">
+                        <h4 class="text-white text-xl font-semibold font-serif">Channel Name</h4>
+                        <p class=" text-sky-100 text-justify text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, cum</p>
+                    </div>
+                    <div id="lorem" class="card overflow-hidden py-3 px-4 space-y-1 cursor-pointer shadow-[4px_4px_10px_#222,6px_6px_20px_#333] hover:shadow-[4px_4px_15px_#555,6px_6px_25px_#666] hover:scale-110 transition-all duration-300 ease-in-out bg-indigo-700">
+                        <img src="../img/ban-1.jpg" class="object-cover mb-2 w-full h-2/3" alt="Channel's Logo">
+                        <h4 class="text-white text-xl font-semibold font-serif">Channel Name</h4>
+                        <p class=" text-sky-100 text-justify text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, cum</p>
+                    </div>
+                    <div id="lorem" class="card overflow-hidden py-3 px-4 space-y-1 cursor-pointer shadow-[4px_4px_10px_#222,6px_6px_20px_#333] hover:shadow-[4px_4px_15px_#555,6px_6px_25px_#666] hover:scale-110 transition-all duration-300 ease-in-out bg-indigo-700">
+                        <img src="../img/ban-1.jpg" class="object-cover mb-2 w-full h-2/3" alt="Channel's Logo">
+                        <h4 class="text-white text-xl font-semibold font-serif">Channel Name</h4>
+                        <p class=" text-sky-100 text-justify text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, cum</p>
+                    </div>
+                    <div id="lorem" class="card overflow-hidden py-3 px-4 space-y-1 cursor-pointer shadow-[4px_4px_10px_#222,6px_6px_20px_#333] hover:shadow-[4px_4px_15px_#555,6px_6px_25px_#666] hover:scale-110 transition-all duration-300 ease-in-out bg-indigo-700">
+                        <img src="../img/ban-1.jpg" class="object-cover mb-2 w-full h-2/3" alt="Channel's Logo">
+                        <h4 class="text-white text-xl font-semibold font-serif">Channel Name</h4>
+                        <p class=" text-sky-100 text-justify text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, cum</p>
+                    </div>
+                    <div id="lorem" class="card overflow-hidden py-3 px-4 space-y-1 cursor-pointer shadow-[4px_4px_10px_#222,6px_6px_20px_#333] hover:shadow-[4px_4px_15px_#555,6px_6px_25px_#666] hover:scale-110 transition-all duration-300 ease-in-out bg-indigo-700">
+                        <img src="../img/ban-1.jpg" class="object-cover mb-2 w-full h-2/3" alt="Channel's Logo">
+                        <h4 class="text-white text-xl font-semibold font-serif">Channel Name</h4>
+                        <p class=" text-sky-100 text-justify text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, cum</p>
+                    </div>
+                    <div id="lorem" class="card overflow-hidden py-3 px-4 space-y-1 cursor-pointer shadow-[4px_4px_10px_#222,6px_6px_20px_#333] hover:shadow-[4px_4px_15px_#555,6px_6px_25px_#666] hover:scale-110 transition-all duration-300 ease-in-out bg-indigo-700">
+                        <img src="../img/ban-1.jpg" class="object-cover mb-2 w-full h-2/3" alt="Channel's Logo">
+                        <h4 class="text-white text-xl font-semibold font-serif">Channel Name</h4>
+                        <p class=" text-sky-100 text-justify text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, cum</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+<script src="../js/script.js"></script>
+
+</html>

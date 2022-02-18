@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Stream -RTV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="../../css/style.css">
+    <!-- <link rel="stylesheet" href="/tailwind.css"> -->
+
+
+</head>
+
+<body>
+    <div id="preloader"></div>
+    <nav
+        class="bg-purple-700 flex justify-between items-center after:content-['Free_Stream'] after:absolute after:left-28 after:text-slate-200 after:font-extrabold after:font-serif after:text-3xl">
+        <img src="../../img/logo.jpg" class=" w-20 h-16  m-2 rounded-lg" alt="Logo -containing a like button">
+        <ul class="select-none px-24 py-4 text-white flex space-x-8 justify-end">
+            <a href="../../index.html" class="home hover:text-green-300 cursor-pointer">Home</a>
+            <a href="../pages/tv-channels.html" class="tvchannel hover:text-green-300 cursor-pointer">Live TV
+                Channels</a>
+            <a href="" class="hover:text-green-300 cursor-pointer">About US</a>
+            <a href="" class="hover:text-green-300 cursor-pointer">Services</a>
+            <a href="" class="hover:text-green-300 cursor-pointer">Contact Us</a>
+        </ul>
+    </nav>
+    <main id="" class="">
+
+        <div class="main h-auto">
+            <div class="heading py-14 h-[25vh] bg-cover">
+                <div class="overlay text-center flex-col h-full pl-14 space-y-14 ">
+                    <h1 class="transition-transY text-red-700  text-6xl font-semibold">Watch R T V</h1>
+                </div>
+            </div>
+        </div>
+        <div
+            class="video-container flex justify-center items-center w-2/3 p-5 my-10 mx-auto h-96 shadow-[inset_5px_5px_3px_#444,inset_-2px_-2px_3px_#777] bg-gray-400">
+            <video id="rtv" class="w-8/12 h-5/6 shadow-[0_0_10px_#111]" controls></video>
+        </div>
+    </main>
+</body>
+<script src="../../js/hls.js"></script>
+<script src="../../js/channel.js"></script>
+
+</html>
